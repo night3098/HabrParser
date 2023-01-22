@@ -4,7 +4,14 @@ from prettytable import PrettyTable
 table = PrettyTable()
 table.field_names = ["Title", "URL"]
 
-print("habr.com parser")
+print("d8888b.  .d8b.  d8888b. .d8888. d88888b d8888b.") 
+print("88  `8D d8' `8b 88  `8D 88'  YP 88'     88  `8D ")
+print("88oodD' 88ooo88 88oobY' `8bo.   88ooooo 88oobY' ")
+print("88~~~   88~~~88 88`8b     `Y8b. 88~~~~~ 88`8b   ")
+print("88      88   88 88 `88. db   8D 88.     88 `88. ")
+print("88      YP   YP 88   YD `8888Y' Y88888P 88   YD ")
+
+
 print("created by night3098")
 
 def gethub(url, cssclass, firsturl = 'https://habr.com'):
