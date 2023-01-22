@@ -4,9 +4,12 @@ from prettytable import PrettyTable
 table = PrettyTable()
 table.field_names = ["Title", "URL"]
 
+print("habr.com parser")
+print("created by night3098")
+
 def gethub(url, cssclass, firsturl = 'https://habr.com'):
     habr_urls = {}
-    s = requests.get(url)
+    s = requests.get(url)")
     b = bs4.BeautifulSoup(s.text, "html.parser")
     p = b.select(cssclass)
     for x in p:
